@@ -36324,13 +36324,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 191px;
+  min-height: 80px;
 }
 
 .u-header .u-image-1 {
-  width: 83px;
-  height: 64px;
-  margin: 40px auto 0 0;
+  width: 80px;
+  height: 61px;
+  margin: 3px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -36338,65 +36338,88 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
 }
 
-.u-header .u-text-1 {
-  font-weight: 700;
-  margin: -45px auto 0 98px;
+.u-header .u-search-1 {
+  width: 200px;
+  height: auto;
+  min-height: 38px;
+  background-image: none;
+  margin: -46px 158px 0 auto;
+}
+
+.u-header .u-image-2 {
+  width: 30px;
+  height: 30px;
+  margin: -34px 102px 0 auto;
+}
+
+.u-header .u-image-3 {
+  width: 30px;
+  height: 30px;
+  margin: -28px 0 0 auto;
 }
 
 .u-header .u-menu-1 {
-  margin: -32px 0 0 auto;
+  margin: -30px auto 0 198px;
 }
 
 .u-header .u-nav-1 {
   font-size: 1rem;
-  letter-spacing: 0px;
 }
 
 .u-header .u-nav-2 {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
-.u-header .u-image-2 {
-  width: 265px;
-  height: 127px;
-  margin: -53px auto 0 359px;
-}
-
-.u-header .u-image-3 {
-  width: 328px;
-  height: 18px;
-  margin: -78px auto 60px 66px;
+.u-header .u-image-4 {
+  width: 30px;
+  height: 21px;
+  margin: -33px 50px 32px auto;
 }
 @media (max-width: 1199px) {
-  .u-header .u-text-1 {
-    margin-top: -45px;
+  .u-header .u-search-1 {
+    margin-top: -46px;
+  }
+
+  .u-header .u-image-3 {
+    margin-top: -14px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -32px;
+    width: auto;
+    margin-top: -44px;
+    margin-right: 220px;
   }
 
-  .u-header .u-image-2 {
-    margin-top: -53px;
-  }
-
-  .u-header .u-image-3 {
-    margin-top: -78px;
+  .u-header .u-image-4 {
+    margin-top: -19px;
   }
 }
+@media (max-width: 991px) {
+  .u-header .u-search-1 {
+    margin-right: 58px;
+  }
 
+  .u-header .u-menu-1 {
+    margin-right: 0;
+  }
+}
 @media (max-width: 767px) {
-  .u-header .u-image-2 {
-    margin-left: 275px;
+  .u-header .u-menu-1 {
+    margin-left: 149px;
   }
 }
 @media (max-width: 575px) {
-  .u-header .u-image-2 {
-    margin-left: 75px;
+  .u-header .u-image-1 {
+    margin-left: auto;
   }
 
-  .u-header .u-image-3 {
-    margin-left: 12px;
+  .u-header .u-search-1 {
+    margin-right: auto;
+  }
+
+  .u-header .u-menu-1 {
+    margin-right: auto;
+    margin-left: 158px;
   }
 }
  .u-footer {
@@ -36408,22 +36431,35 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-text-1 {
-  width: 417px;
-  margin: 49px auto;
+  margin: 49px 935px 49px 75px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
     min-height: 99px;
+  }
+
+  .u-footer .u-text-1 {
+    width: 417px;
+    margin-left: 0;
+    margin-right: 809px;
   }
 }
 @media (max-width: 991px) {
   .u-footer .u-sheet-1 {
     min-height: 76px;
   }
+
+  .u-footer .u-text-1 {
+    margin-right: 589px;
+  }
 }
 @media (max-width: 767px) {
   .u-footer .u-sheet-1 {
     min-height: 57px;
+  }
+
+  .u-footer .u-text-1 {
+    margin-right: 409px;
   }
 }
 @media (max-width: 575px) {
@@ -36433,9 +36469,12 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-1 {
     width: 340px;
+    margin-right: 209px;
   }
 }
 
+ /*begin-variables custom-site-css*/<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-189d0993-c4df-428f-ad13-9322d95d9acc"></div>/*end-variables custom-site-css*/
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
